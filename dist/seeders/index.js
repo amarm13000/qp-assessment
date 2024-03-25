@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.permission = exports.operation = exports.product = exports.action = exports.resource = exports.user = exports.role = void 0;
+const role_1 = require("./role");
+Object.defineProperty(exports, "role", { enumerable: true, get: function () { return role_1.role; } });
+const user_1 = require("./user");
+Object.defineProperty(exports, "user", { enumerable: true, get: function () { return user_1.user; } });
+const resource_1 = require("./resource");
+Object.defineProperty(exports, "resource", { enumerable: true, get: function () { return resource_1.resource; } });
+const action_1 = require("./action");
+Object.defineProperty(exports, "action", { enumerable: true, get: function () { return action_1.action; } });
+const product_1 = require("./product");
+Object.defineProperty(exports, "product", { enumerable: true, get: function () { return product_1.product; } });
+const operation_1 = require("./operation");
+Object.defineProperty(exports, "operation", { enumerable: true, get: function () { return operation_1.operation; } });
+const permission_1 = require("./permission");
+Object.defineProperty(exports, "permission", { enumerable: true, get: function () { return permission_1.permission; } });
